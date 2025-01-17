@@ -21,6 +21,13 @@ Voxblox is a volumetric mapping library based mainly on Truncated Signed Distanc
 
 # Migration to ROS2
 
+## Deps
+sudo apt update
+sudo apt install protobuf-compiler libprotobuf-dev
+sudo apt install libgoogle-glog-dev
+sudo apt install ros-humble-pcl-ros
+
+## Further
 Voxblox has been partly migrated to ROS2 in the `ros2` git branch.
 The migrated code was tested on Ubuntu 22.04 with ROS2 humble.
 A Dockerfile is also available for getting started quickly. 
